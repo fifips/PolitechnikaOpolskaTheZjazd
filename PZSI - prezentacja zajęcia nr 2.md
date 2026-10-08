@@ -43,9 +43,15 @@ Zajęcia 2
 ---
 
 ## Proponowane technologie i narzędzia programistyczne
+
 Unity - silnik gry
+
 C# - język programowania
+
 Git - kontrola wersji
+
 [] - przygotowanie grafiki
+
 [] - dźwięk
+
 GitHub Projects - zarządzanie zadaniami 
