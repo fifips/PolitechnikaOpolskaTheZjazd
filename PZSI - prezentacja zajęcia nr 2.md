@@ -1,8 +1,8 @@
 # Projekt zespołowy systemu informatycznego
 
-## APLIKACJA WEBOWA
+## GRA KOMPUTEROWA
 
-Grupa
+Grupa A
 
 dd.mm.rrrr
 
@@ -26,13 +26,31 @@ Gra instalowana na komputerze, z możliwością zapisywania stanu gry i odtworze
 
 ## Zamawiany produkt
 
+Przedmiotem projektu jest gra komputerowa „Politechnika Opolska Experience”, która umożliwi:
+
+- Wcielenie się w postać studenta Politechniki Opolskiej
+- Eksplorację losowo generowanych lokacji  inspirowanych budynkami uczelni
+- Rozwiązywanie zadań, łamigłówek i testów związanych z kierunkiem studiów
+- Przetrwanie weekendowego zjazdu
+
 ---
 
 ## Funkcje zamawianego produktu
 
+- Eksploracja mapy uczelni
+- Zdobywanie punktów ECTS
+- Możliwość rozwoju postaci
+- Rozgrywka 2D typu rouge-like
+- Mechaniki przetrwania i energii (kawa, energetyki)
+
 ---
 
 ## Cechy zamawianego produktu
+
+- Grafika 2D z widokiem z góry
+- Intuicyjny interfejs użytkownika
+- Humorystyczna stylistyka życia studenckiego
+- Reset gry z każdym podejściem, z możliwością zachowania części ulepszeń
 
 ---
 
