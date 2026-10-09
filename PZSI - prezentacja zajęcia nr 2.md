@@ -16,6 +16,11 @@ Zajęcia 2
 
 ## Wycinek rzeczywistości
 
+Gra "Politechnika Opolska Experience" pozwala wcielić się w postać osoby studiującej na Politechnice Opolskiej. Eksplorując budynki kampusu Politechniki i Wydziału Informatyki, rozwiązuje się łamigłówki związane w programem studiów na kierunku Informatyka. Za każdą rozwiązaną łamigłówkę gracz dostaje punkty, które może wykorzystać na rozwój swojej postaci.
+
+W warstwie graficznej, gra operuje na planszy 2D, modelującej kampus Politechniki Opolskiej. Widok gracza to widok z góry. Postać, w którą wciela się gracz, to postać studenta. Pierwsze uruchomienie gry wyświetla główne zasady oraz instrukcję poruszania się. Wyzwania oznaczone są ruchomymi oznaczeniami, które gracz może podejrzeć i aktywować za pomocą kontrolerów gry. Zebrane punkty akumulują sięw koncie gracza i pozwalają na wymianę na ulepszenie atrybutów postaci.
+
+Gra instalowana na komputerze, z możliwością zapisywania stanu gry i odtworzenia go. W końcowym etapie, w razie pozytywnego odbioru gry, istnieje możliwość opublikowania gry wewnątrz sieci uczelnianej.
 ---
 
 ## Zamawiany produkt
