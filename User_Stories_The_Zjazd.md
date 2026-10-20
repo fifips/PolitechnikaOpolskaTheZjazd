@@ -71,8 +71,56 @@ Propozycje user stories dla funkcjonalności głównych gry „The Zjazd".
 **Kryteria akceptacji:**
 - Istnieje jeden (1) plik wykonywalny, który uruchamia grę po podwójnym kliknięciu
 - Gra działa na Windows 11
-- Gra nie ma żadnych wymagań systemowych poza obecnością systemu Windows.
+- Gra nie ma żadnych wymagań systemowych poza podstawowymi (system Windows, podłączona klawiatura, etc).
 
+## US-07
 
+**Jako** gracz
+**chcę** po uruchomieniu gry mieć widok MENU
+**aby** mieć możliwość zapoznania się z opcjami przed rozpoczęciem gry.
 
+**Kryteria akceptacji:**
+- po uruchomieniu gry, wyświetlany jest widok MENU.
+- Przynajmniej dwie opcje są dostępne: uruchom nową grę oraz zamknij.
+
+## US-08
+
+**Jako** gracz
+**chcę** móc w łatwy sposób zatrzymać grę,
+**aby** wciskając przycisk na klawiaturze lub myszką.
+
+**Kryteria akceptacji:**
+- po wybraniu odpowiedniej opcji, gra zostaje zatrzymana,
+- na ekranie pojawia się widok "Wznów grę"
+- widok może być zintegrowany z MENU; wtedy MENU będzie pokazywało trzy opcje: Wznów grę, Rozpocznij nową grę, Zakończ.
+
+## US-09
+
+**Jako** gracz
+**chcę** mieć możliwość zapisania stanu gry,
+**aby** rozpocząć granie od zapisanego momentu.
+
+**Kryteria akceptacji:**
+- istnieje przycisk lub kombinacja klawiszy zapisująca stan gry,
+- otwierając grę następnym razem, w MENU pojawia się opcja Wznów zapisaną grę
+- Jako minimum: ostatni stan jest zapisywany, każdy nowy stan nadpisuje ostatni.
+
+## US-10
+
+**Jako** wydawca gry
+**chcę** mieć możliwość wglądu w statystyki graczy
+**aby** poznać popularność gry.
+
+**Kryteria akceptacji:**
+- gra zapisuje lokalnie plik cache z licznikiem otwarcia gry oraz kumulatywnym czasem spędzonym na graniu
+
+## US-11
+
+**Jako** Programistka gry
+**chcę** mieć możliwość analizy błędów w grze
+**aby** móc naprawiać bugi.
+
+**Kryteria akceptacji:**
+- przy wystąpieniu nieoczekiwanego błędu, aplikacja zapisuje informacje na temat błędu do pliku diagnostycznego w folderze cache.
+- informacja diagnostyczna zawiera stos wywołania oraz komunikat błędu.
 
