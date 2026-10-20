@@ -87,7 +87,7 @@ Propozycje user stories dla funkcjonalności głównych gry „The Zjazd".
 
 **Jako** gracz
 **chcę** móc w łatwy sposób zatrzymać grę,
-**aby** wciskając przycisk na klawiaturze lub myszką.
+**aby** móc przerwać z przyczyn niezależnych.
 
 **Kryteria akceptacji:**
 - po wybraniu odpowiedniej opcji, gra zostaje zatrzymana,
@@ -112,7 +112,8 @@ Propozycje user stories dla funkcjonalności głównych gry „The Zjazd".
 **aby** poznać popularność gry.
 
 **Kryteria akceptacji:**
-- gra zapisuje lokalnie plik cache z licznikiem otwarcia gry oraz kumulatywnym czasem spędzonym na graniu
+- gra zapisuje lokalnie plik cache z kumulatywnym czasem spędzonym na graniu.
+- gra zapisuje szczegółowe statystyki: ile czasu w budynku, ile czasu na zadaniach, etc.
 
 ## US-11
 
