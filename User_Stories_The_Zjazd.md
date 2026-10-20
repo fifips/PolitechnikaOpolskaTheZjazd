@@ -2,6 +2,8 @@
 
 Propozycje user stories dla funkcjonalności głównych gry „The Zjazd".
 
+# Gameplay User Stories
+
 ## US-01: Eksploracja kampusu
 
 **Jako** student
@@ -56,3 +58,21 @@ Propozycje user stories dla funkcjonalności głównych gry „The Zjazd".
 - Wynik końcowy (np. suma ECTS) trafia do rankingu po zakończeniu podejścia.
 - Mogę przeglądać listę najlepszych graczy oraz własną pozycję.
 - Tryb treningowy nie wpływa na ranking.
+
+
+# General User Stories
+
+## US-06
+
+**Jako** gracz
+**chcę** w łatwy sposób uruchomić grę,
+**aby** rozpocząć granie bez niepotrzebnych przeszkód.
+
+**Kryteria akceptacji:**
+- Istnieje jeden (1) plik wykonywalny, który uruchamia grę po podwójnym kliknięciu
+- Gra działa na Windows 11
+- Gra nie ma żadnych wymagań systemowych poza obecnością systemu Windows.
+
+
+
+
