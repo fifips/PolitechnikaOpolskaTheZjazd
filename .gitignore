@@ -11,6 +11,7 @@ MemoryCaptures/
 # Generated project files
 *.csproj
 *.sln
+*.slnx
 *.user
 
 # IDE
