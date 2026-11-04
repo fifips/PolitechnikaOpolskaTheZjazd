@@ -1,2 +1,26 @@
+# Unity generated folders
+Library/
+Temp/
+Obj/
+Logs/
+UserSettings/
+Build/
+Builds/
+MemoryCaptures/
+
+# Generated project files
+*.csproj
+*.sln
+*.user
+
+# IDE
 *.idea
 *.vscode
+.vs/
+.idea/
+.vscode/
+
+# macOS / Vim junk
+.DS_Store
+*.swp
+*.swo
