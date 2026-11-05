@@ -17,6 +17,19 @@ Gra 2D z widokiem z góry, osadzona na kampusie Politechniki Opolskiej. Gracz ja
 5. Nie zgadzaj się na "upgrade" projektu do innej wersji edytora.
 6. Ustaw platformę docelową: **File → Build Profiles** (lub Build Settings) → **Windows** → **Switch Platform**. Unity trzyma ten wybór lokalnie (w `Library/`), więc nie trafia do repozytorium i każdy ustawia go u siebie. Gra docelowo działa na Windows 11 (jeden plik `.exe`).
 
+## Pliki `.sln` i `.csproj`
+
+Plików `.sln`, `.slnx` i `.csproj` nie ma w repozytorium. Unity generuje je samo przy otwarciu projektu i różnią się między komputerami (ścieżki do edytora, system operacyjny), więc ich nie commitujemy.
+
+Jeśli IDE (Rider, Visual Studio, VS Code) nie widzi skryptów albo nie podpowiada kodu:
+
+1. W Unity: **Edit → Preferences → External Tools** (na macOS: **Unity → Settings → External Tools**).
+2. Wybierz swoje IDE w polu **External Script Editor**.
+3. Kliknij **Regenerate project files**.
+4. Otwórz skrypt dwuklikiem w Unity albo ponownie otwórz solution w IDE.
+
+Wybór IDE jest lokalny i nie trafia do repozytorium.
+
 ## Struktura folderów
 
 | Folder | Zawartość |
