@@ -11,8 +11,8 @@ Gra 2D z widokiem z góry, osadzona na kampusie Politechniki Opolskiej. Gracz ja
 ## Jak otworzyć projekt
 
 1. Sklonuj repozytorium: `git clone https://github.com/fifips/PolitechnikaOpolskaTheZjazd.git`
-2. W Unity Hub: **Projects → Add → Add project from disk** i wskaż sklonowany folder.
-3. Hub zaproponuje wersję edytora z `ProjectSettings/ProjectVersion.txt`. Jeśli jej nie masz, zainstaluj `6000.3.28f1`.
+2. W Unity Hub: **Projects → Add → Add project from disk** i wskaż folder **`PolitechnikaOpolskaTheZjazd/`** wewnątrz sklonowanego repozytorium (nie sam root: projekt Unity jest w podkatalogu, a w roocie są tylko dokumenty i prezentacje).
+3. Hub zaproponuje wersję edytora z `PolitechnikaOpolskaTheZjazd/ProjectSettings/ProjectVersion.txt`. Jeśli jej nie masz, zainstaluj `6000.3.28f1`.
 4. Pierwsze otwarcie trwa kilka minut (Unity generuje folder `Library/`, którego nie commitujemy).
 5. Nie zgadzaj się na "upgrade" projektu do innej wersji edytora.
 6. Ustaw platformę docelową: **File → Build Profiles** (lub Build Settings) → **Windows** → **Switch Platform**. Unity trzyma ten wybór lokalnie (w `Library/`), więc nie trafia do repozytorium i każdy ustawia go u siebie. Gra docelowo działa na Windows 11 (jeden plik `.exe`).
@@ -32,9 +32,11 @@ Wybór IDE jest lokalny i nie trafia do repozytorium.
 
 ## Struktura folderów
 
+Projekt Unity leży w `PolitechnikaOpolskaTheZjazd/`; poniższe ścieżki są względem tego folderu.
+
 | Folder | Zawartość |
 |---|---|
-| `Assets/Scenes` | sceny gry (start: `World`) |
+| `Assets/Scenes` | sceny gry (na razie `SampleScene`) |
 | `Assets/Scripts` | skrypty C# |
 | `Assets/Prefabs` | prefaby (postać, budynki, zadania) |
 | `Assets/Sprites` | grafiki i animacje |
