@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: fe91937835f444792ab297416c50561b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1138299010462884894
+    second: main_postac_lewo-Sheet_0
+  - first:
+      213: 4009172240668104634
+    second: main_postac_lewo-Sheet_1
+  - first:
+      213: 3665258717180341388
+    second: main_postac_lewo-Sheet_2
+  - first:
+      213: 5484182449498604978
+    second: main_postac_lewo-Sheet_3
+  - first:
+      213: -247604330714380355
+    second: main_postac_lewo-Sheet_4
+  - first:
+      213: -7581480837307051487
+    second: main_postac_lewo-Sheet_5
+  - first:
+      213: 4095456458939041532
+    second: main_postac_lewo-Sheet_6
+  - first:
+      213: 1866513076765983512
+    second: main_postac_lewo-Sheet_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: main_postac_lewo-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 8, y: 0}
+        - {x: 0, y: 16}
+        - {x: -8, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 8, y: 0}
+        - {x: 0, y: 16}
+        - {x: -8, y: 0}
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14a1d64bec0ccf00800000000000000
+      internalID: 1138299010462884894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main_postac_lewo-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 8, y: 0}
+        - {x: 0, y: 16}
+        - {x: -8, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 8, y: 0}
+        - {x: 0, y: 16}
+        - {x: -8, y: 0}
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7116059e073a730800000000000000
+      internalID: 4009172240668104634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main_postac_lewo-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 8, y: 0}
+        - {x: 0, y: 16}
+        - {x: -8, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 8, y: 0}
+        - {x: 0, y: 16}
+        - {x: -8, y: 0}
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c2077426d9dd230800000000000000
+      internalID: 3665258717180341388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main_postac_lewo-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 8, y: 0}
+        - {x: 0, y: 16}
+        - {x: -8, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 8, y: 0}
+        - {x: 0, y: 16}
+        - {x: -8, y: 0}
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5cbc1a1eabb1c40800000000000000
+      internalID: 5484182449498604978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main_postac_lewo-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 8, y: 0}
+        - {x: 0, y: 16}
+        - {x: -8, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 8, y: 0}
+        - {x: 0, y: 16}
+        - {x: -8, y: 0}
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7cbee4c25509cf0800000000000000
+      internalID: -247604330714380355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main_postac_lewo-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 8, y: 0}
+        - {x: 0, y: 16}
+        - {x: -8, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 8, y: 0}
+        - {x: 0, y: 16}
+        - {x: -8, y: 0}
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122d1ecc85b29c690800000000000000
+      internalID: -7581480837307051487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main_postac_lewo-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 8, y: 0}
+        - {x: 0, y: 16}
+        - {x: -8, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 8, y: 0}
+        - {x: 0, y: 16}
+        - {x: -8, y: 0}
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6042463fbf5d830800000000000000
+      internalID: 4095456458939041532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main_postac_lewo-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 8, y: 0}
+        - {x: 0, y: 16}
+        - {x: -8, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 8, y: 0}
+        - {x: 0, y: 16}
+        - {x: -8, y: 0}
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813024d01cf27e910800000000000000
+      internalID: 1866513076765983512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":3,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      main_postac_lewo-Sheet_0: 1138299010462884894
+      main_postac_lewo-Sheet_1: 4009172240668104634
+      main_postac_lewo-Sheet_2: 3665258717180341388
+      main_postac_lewo-Sheet_3: 5484182449498604978
+      main_postac_lewo-Sheet_4: -247604330714380355
+      main_postac_lewo-Sheet_5: -7581480837307051487
+      main_postac_lewo-Sheet_6: 4095456458939041532
+      main_postac_lewo-Sheet_7: 1866513076765983512
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
