@@ -181,6 +181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerControls
   playerSpeed: 5
+  animationSpeed: 1.2
 --- !u!95 &7355147762100753424
 Animator:
   serializedVersion: 7
@@ -191,7 +192,7 @@ Animator:
   m_GameObject: {fileID: 180760526560016706}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 53e0d9c7947be48fbb9568ef991bcf3c, type: 2}
+  m_Controller: {fileID: 9100000, guid: a099369a45afb1872ad6db905eaf6f34, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
