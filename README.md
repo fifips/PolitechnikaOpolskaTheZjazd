@@ -1,6 +1,6 @@
 # The Zjazd
 
-Gra 2D z widokiem z góry, osadzona na kampusie Politechniki Opolskiej. Gracz jako student zaoczny przetrwa weekendowy zjazd: wykonuje zadania, zdobywa punkty ECTS i zarządza energią. Opis funkcji: [User_Stories_The_Zjazd.md](User_Stories_The_Zjazd.md).
+Gra 2D z widokiem z góry, osadzona na kampusie Politechniki Opolskiej. Gracz jako student zaoczny przetrwa weekendowy zjazd: wykonuje zadania, zdobywa punkty ECTS i zarządza energią. Opis funkcji: [User_Stories_The_Zjazd.md](Files/Presentations/User_Stories_The_Zjazd.md).
 
 ## Wymagania
 
