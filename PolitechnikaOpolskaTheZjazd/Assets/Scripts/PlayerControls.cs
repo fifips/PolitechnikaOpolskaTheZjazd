@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem; //korzysta z systemu odczytu klawiszy na klawiaturze w Unity
 
@@ -16,6 +17,15 @@ public class PlayerControls : MonoBehaviour
     private Animator animator;
     private string currentAnimation = "";
     private Vector2 lastDirection = Vector2.down; // Domyślny kierunek patrzenia gracza na dół
+
+    //Kierunek, w którym patrzy gracz (potrzebny np. do wskazania, kogo gracz uderza linijką)
+    public Vector2 Facing => lastDirection;
+
+    //Gdy false, gracz nie może się ruszać (np. na ekranie podsumowania zadania)
+    public bool InputEnabled { get; set; } = true;
+
+    //Wywoływane przy każdym naciśnięciu klawisza interakcji. Zadania zapisują się tu, żeby reagować na E
+    public event Action Interacted;
 
     // Awake zostaje wywołane przed metodą Start i jest używane do inicjalizacji komponentów
     void Awake()
@@ -36,19 +46,19 @@ public class PlayerControls : MonoBehaviour
         }
 
         //Ruch gracza (klawisze WASD)
-        if (Keyboard.current.wKey.isPressed)
+        if (InputEnabled && Keyboard.current.wKey.isPressed)
         {
             direction += Vector2.up;
         }
-        if (Keyboard.current.sKey.isPressed)
+        if (InputEnabled && Keyboard.current.sKey.isPressed)
         {
             direction += Vector2.down;
         }
-        if (Keyboard.current.dKey.isPressed)
+        if (InputEnabled && Keyboard.current.dKey.isPressed)
         {
             direction += Vector2.right;
         }
-        if (Keyboard.current.aKey.isPressed)
+        if (InputEnabled && Keyboard.current.aKey.isPressed)
         {
             direction += Vector2.left;
         }
@@ -72,8 +82,8 @@ public class PlayerControls : MonoBehaviour
 
     void Interact()
     {
-        // PLACEHOLDER
-        Debug.Log("Interakcja z obiektem! Placeholder! Do zaimplementowania!");
+        //Interakcja jest zdarzeniem: każdy, kto jej potrzebuje (np. zadanie egzaminu), zapisuje się do Interacted
+        Interacted?.Invoke();
     }
 
 
