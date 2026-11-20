@@ -17,6 +17,11 @@ public class ParkingManager : MonoBehaviour
 
     public IReadOnlyList<ParkingSpot> ParkingSpots => parkingSpots;
 
+    [Header("Samochody")]
+    public GameObject parkedCarPrefab;
+
+    private List<GameObject> spawnedCars = new List<GameObject>();
+
     private void Start()
     {
         FindParkingSpots();
@@ -84,10 +89,50 @@ public class ParkingManager : MonoBehaviour
                 shuffledSpots[i].SetOccupied(true);
         }
 
+        // Generujemy zaparkowane samochody
+        if (Application.isPlaying && parkedCarPrefab != null)
+            SpawnParkedCars();
+
         Debug.Log(
             $"ParkingManager: zajęte {occupiedCount} z {parkingSpots.Count} miejsc " +
             $"({occupancyPercentage}%).",
             this
         );
     }
+
+    void SpawnParkedCars()
+    {
+        // Usuwamy poprzednio wygenerowane samochody
+        foreach (GameObject car in spawnedCars)
+        {
+            if (car != null)
+                Destroy(car);
+        }
+
+        spawnedCars.Clear();
+
+        foreach (ParkingSpot spot in parkingSpots)
+        {
+            if (!spot.IsOccupied)
+                continue;
+
+            // Środek miejsca parkingowego
+            Vector3 offset = new Vector3(
+                (spot.size.x - 1) * spot.grid.cellSize.x / 2f,
+                (spot.size.y - 1) * spot.grid.cellSize.y / 2f,
+                0f
+            );
+
+            Vector3 position = spot.transform.TransformPoint(offset);
+
+            // Ustawienie samochodu zgodnie z kierunkiem miejsca
+            Quaternion rotation = spot.transform.rotation *
+                                Quaternion.Euler(0f, 0f, 90f);
+
+            GameObject car = Instantiate(parkedCarPrefab, position, rotation);
+
+            spawnedCars.Add(car);
+        }
+    }
 }
+

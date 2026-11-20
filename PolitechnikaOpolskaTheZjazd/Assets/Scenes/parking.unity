@@ -26433,6 +26433,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2274806552720975868, guid: 2fe86ce1da747ae7aa3c371ae9ac3233,
         type: 3}
+      propertyPath: parkedCarPrefab
+      value: 
+      objectReference: {fileID: 34251088318912542, guid: 8caeb739a36f50cfd99a2e851173a8c2,
+        type: 3}
+    - target: {fileID: 2274806552720975868, guid: 2fe86ce1da747ae7aa3c371ae9ac3233,
+        type: 3}
       propertyPath: occupancyPercentage
       value: 95
       objectReference: {fileID: 0}
