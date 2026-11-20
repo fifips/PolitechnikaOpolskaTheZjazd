@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 727636455196379533}
   - component: {fileID: 4057282143470818893}
   - component: {fileID: 647234298444997632}
+  - component: {fileID: 5025021579256544003}
   m_Layer: 0
   m_Name: Car
   m_TagString: Untagged
@@ -32,8 +33,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.41, y: -1.3514, z: 0}
-  m_LocalScale: {x: 1.2, y: 2.6194801, z: 1.2}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 1.3, y: 2.9, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -299,3 +300,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5025021579256544003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34251088318912542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 281e7ce11c52983ec95dc304160d39cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ParkingSpotDetector
+  parkingManager: {fileID: 2274806552720975868, guid: 2fe86ce1da747ae7aa3c371ae9ac3233,
+    type: 3}
+  maxParkingSpeed: 0.2
+  requiredStopTime: 1
