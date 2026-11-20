@@ -112,7 +112,8 @@ MonoBehaviour:
   acceleration: 5
   maxSpeed: 8
   braking: 8
-  turnSpeed: 120
+  turnSpeed: 60
+  lowSpeedTurnMultiplier: 0.2
 --- !u!50 &3370094846173118172
 Rigidbody2D:
   serializedVersion: 5
