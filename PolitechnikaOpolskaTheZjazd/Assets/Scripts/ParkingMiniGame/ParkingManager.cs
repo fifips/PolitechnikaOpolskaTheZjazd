@@ -44,7 +44,10 @@ public class ParkingManager : MonoBehaviour
 
         // Wyszukujemy wszystkie ParkingSpot w załadowanej scenie,
         // również te znajdujące się na nieaktywnych obiektach.
-        ParkingSpot[] foundSpots = FindObjectsOfType<ParkingSpot>(true);
+        ParkingSpot[] foundSpots = FindObjectsByType<ParkingSpot>(
+            FindObjectsInactive.Include,
+            FindObjectsSortMode.None
+        );
 
         parkingSpots.AddRange(foundSpots);
 
