@@ -47,3 +47,5 @@ MonoBehaviour:
   occupancyPercentage: 80
   randomizeOnStart: 1
   parkingSpots: []
+  parkedCarPrefab: {fileID: 34251088318912542, guid: 8caeb739a36f50cfd99a2e851173a8c2,
+    type: 3}
