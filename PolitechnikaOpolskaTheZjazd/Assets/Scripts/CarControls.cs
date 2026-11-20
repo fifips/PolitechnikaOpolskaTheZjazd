@@ -41,7 +41,7 @@ public class CarControls : MonoBehaviour
         // Ruch samochodu
         rb.linearVelocity = transform.up * currentSpeed;
 
-        // Skrêcanie zale¿ne od prêdkoœci
+        // Skrï¿½canie zaleï¿½ne od prï¿½dkoï¿½ci
         if (Mathf.Abs(currentSpeed) > 0.1f)
         {
             float direction = currentSpeed >= 0 ? 1 : -1;
@@ -53,4 +53,12 @@ public class CarControls : MonoBehaviour
             rb.MoveRotation(rb.rotation + rotation);
         }
     }
+    // Metoda do natychmiastowego zatrzymania samochodu, np. w przypadku kolizji.
+    public void StopImmediately()
+    {
+        currentSpeed = 0f;
+        rb.linearVelocity = Vector2.zero;
+        rb.angularVelocity = 0f;
+    }
+
 }
