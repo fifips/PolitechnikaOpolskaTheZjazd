@@ -41,6 +41,8 @@ Projekt Unity leży w `PolitechnikaOpolskaTheZjazd/`; poniższe ścieżki są wz
 | `Assets/Prefabs` | prefaby (postać, budynki, zadania) |
 | `Assets/Sprites` | grafiki i animacje |
 | `Assets/Tiles` | kafelki mapy |
+| `Assets/Audio/Music` | muzyka |
+| `Assets/Audio/SoundEffects` | efekty dziwękowe |
 
 ## Konwencje pracy
 

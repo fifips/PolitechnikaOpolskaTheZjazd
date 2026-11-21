@@ -6,7 +6,11 @@ public class CarControls : MonoBehaviour
     public float acceleration = 5f;
     public float maxSpeed = 8f;
     public float braking = 8f;
-    public float turnSpeed = 120f;
+    public float turnSpeed = 80f;
+
+    [Header("SkrÄ™canie")]
+    [Range(0f, 1f)]
+    public float lowSpeedTurnMultiplier = 0.25f;
 
     private Rigidbody2D rb;
     private float currentSpeed;
@@ -41,16 +45,36 @@ public class CarControls : MonoBehaviour
         // Ruch samochodu
         rb.linearVelocity = transform.up * currentSpeed;
 
-        // Skrêcanie zale¿ne od prêdkoœci
+        // SkrÄ™canie zaleÅ¼ne od prÄ™dkoÅ›ci
         if (Mathf.Abs(currentSpeed) > 0.1f)
         {
             float direction = currentSpeed >= 0 ? 1 : -1;
 
+            float speedFactor = Mathf.Clamp01(
+                Mathf.Abs(currentSpeed) / (maxSpeed * 0.5f)
+            );
+
+            float steeringMultiplier = Mathf.Lerp(
+                lowSpeedTurnMultiplier,
+                1f,
+                speedFactor
+            );
+
             float rotation = -turnInput * turnSpeed *
+                             steeringMultiplier *
                              direction *
                              Time.fixedDeltaTime;
 
             rb.MoveRotation(rb.rotation + rotation);
         }
+
     }
+    // Metoda do natychmiastowego zatrzymania samochodu, np. w przypadku kolizji.
+    public void StopImmediately()
+    {
+        currentSpeed = 0f;
+        rb.linearVelocity = Vector2.zero;
+        rb.angularVelocity = 0f;
+    }
+
 }
