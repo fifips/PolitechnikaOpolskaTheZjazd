@@ -37,7 +37,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Player Layer
   m_SortingLayers:
   - name: Default
     uniqueID: 0
@@ -50,6 +50,9 @@ TagManager:
     locked: 0
   - name: Layer 3
     uniqueID: 4189426099
+    locked: 0
+  - name: Player Layer
+    uniqueID: 2236432729
     locked: 0
   m_RenderingLayers:
   - Default
